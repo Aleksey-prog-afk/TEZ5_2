@@ -16,10 +16,9 @@ namespace TEZ5
         private static DataSet ds;
         private static double xist = 55.00515;
         private static double yist = 83.06187;
-        public static void setConn(string filename)
+        public static void setConn(string path)
         {
-            path = Path.GetFullPath(filename);
-            path.Replace(@"\\", @"\");
+           
             connection = new SqlConnection($@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = {path};Integrated Security=True");
 
         }

@@ -1,0 +1,29 @@
+CREATE TABLE [dbo].[Points] (
+    [Id]       INT        IDENTITY (1, 1) NOT NULL,
+    [lat]      FLOAT (53) NOT NULL,
+    [lng]      FLOAT (53) NOT NULL,
+    [distance] FLOAT (53) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+SET IDENTITY_INSERT [dbo].[Points] ON
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (1, 55.01111, 83.06004, 672.9205854523733)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (2, 55.01264, 83.04711, 1256.6533392551025)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (3, 55.02222, 83.03801, 2432.443594868821)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (4, 55.02555, 83.03007, 3042.3169243084585)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (5, 55.03507, 83.02705, 3999.471721719467)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (6, 55.03866, 83.07491, 3817.9180885527226)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (7, 55.04454, 83.07257, 4432.9438051168945)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (8, 55.0505, 83.125, 6451.5385051009262)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (9, 55.06493, 83.25026, 13722.904416744148)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (10, 55.07799, 83.32637, 18698.146498762406)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (11, 55.04697, 83.07137, 4689.6266461510395)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (12, 55.06067, 83.06265, 6173.9652414963648)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (13, 55.03046, 83.07362, 2912.4904888107203)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (14, 55.03459, 83.07322, 3352.7554534132223)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (15, 54.99573, 83.30455, 15513.77839930259)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (16, 55, 83.26063, 12689.406914290437)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (17, 54.97937, 83.14261, 5894.854967240638)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (18, 54.99048, 83.09208, 2524.8498177323531)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (20, 0, 0, 0)
+INSERT INTO [dbo].[Points] ([Id], [lat], [lng], [distance]) VALUES (21, 0, 0, 0)
+SET IDENTITY_INSERT [dbo].[Points] OFF

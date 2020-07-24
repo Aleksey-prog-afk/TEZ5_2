@@ -46,10 +46,9 @@ namespace TEZ5
             connection.Close();
             map.Overlays.Add(pointsOverlay);
         }
-        public static void setConn(string ugollename)
+        public static void setConn(string path)
         {
-            string path = Path.GetFullPath(ugollename);
-            path.Replace(@"\\", @"\");
+            
             connection = new SqlConnection($@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = {path};Integrated Security=True");
 
         }
